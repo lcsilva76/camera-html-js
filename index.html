@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturando Imagem</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+            <h1>Exemplo de Câmera</h1>
+    </header>
+    <main>
+        <section>
+            <video class="filtro" autoplay id="video"></video>
+            <div class="controls">
+                <label for="brilho">Brilho:</label>
+                <input type="range" id="brilho" max="200">
+                <span id="mBrilho">100%</span>
+                <br>
+                <label for="contraste">Contraste:</label>
+                <input type="range" id="contraste" max="200">
+                <span id="mContraste">100%</span>            
+            </div>
+        </section>
+        <section>
+            <button>Tirar Foto</button>
+            <canvas></canvas>
+            <a id="link" href=""></a>
+        </section>
+    </main>
+    <footer>
+        <p>Este é um exemplo de como usar a camera com Javascript.</p>
+    </footer>
+</div>    
+    <script src="js/script.js"></script>
+</body>
+</html>
